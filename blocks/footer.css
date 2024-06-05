@@ -1,0 +1,29 @@
+.footer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #2a2c2f;
+}
+
+.footer__copyright {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: white;
+  margin: 92px 0 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    margin: 88px 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    margin: 64px 0 24px;
+  }
+}

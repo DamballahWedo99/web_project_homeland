@@ -1,0 +1,27 @@
+.header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.header__logo {
+  width: 20vw;
+  margin-top: 34px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: 32vw;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    width: 60vw;
+    margin-top: 20px;
+  }
+}

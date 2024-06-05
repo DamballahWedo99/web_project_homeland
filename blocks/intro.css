@@ -1,0 +1,152 @@
+.intro__container {
+  width: 85%;
+  margin: 92px auto 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.intro__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 54px;
+  font-weight: bold;
+  line-height: 1.1;
+  color: white;
+  text-align: start;
+  width: 70%;
+}
+
+.intro__quote {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: white;
+  text-align: start;
+  width: 70%;
+  margin-top: 40px;
+}
+
+.intro__quote-author {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.1;
+  color: white;
+  margin-top: 10px;
+  text-align: end;
+  width: 66%;
+}
+
+.intro__text {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.4;
+  color: white;
+  margin-top: 40px;
+  width: 66%;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__container {
+    width: 95%;
+    margin: 90px auto 0;
+  }
+
+  .intro__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: white;
+    text-align: start;
+    width: 90%;
+  }
+
+  .intro__quote {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.4;
+    color: white;
+    text-align: start;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .intro__quote-author {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: white;
+    margin-top: 0;
+    text-align: end;
+    width: 100%;
+  }
+
+  .intro__text {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6;
+    color: white;
+    margin-top: 32px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__container {
+    width: 92%;
+    margin: 64px auto 0;
+  }
+
+  .intro__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: white;
+    text-align: start;
+    width: 100%;
+    margin-top: 15vw;
+  }
+
+  .intro__quote {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.25;
+    color: white;
+    text-align: start;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .intro__quote-author {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: white;
+    margin-top: 10px;
+    text-align: end;
+    width: 100%;
+  }
+
+  .intro__text {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6;
+    color: white;
+    margin-top: 32px;
+    width: 100%;
+  }
+}
