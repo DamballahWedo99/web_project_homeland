@@ -106,6 +106,10 @@
     align-self: self-end;
   }
 
+  .places-container__image {
+    box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
+  }
+
   .places-container__paragraph {
     font-family: "Inter", Arial, sans-serif;
     font-size: 18px;
@@ -116,7 +120,7 @@
 
   .places-container__button {
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
-    background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+    background-image: linear-gradient(90deg, #0278fe 0.56%, #003a7b 100%);
   }
 }
 
@@ -140,6 +144,10 @@
     margin: auto;
   }
 
+  .places-container__image {
+    box-shadow: none;
+  }
+
   .places-container__website {
     width: 90%;
     margin: auto;
@@ -156,6 +164,5 @@
     margin: auto;
     padding: 15px 46px;
     background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   }
 }
