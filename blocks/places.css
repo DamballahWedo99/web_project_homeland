@@ -1,4 +1,4 @@
-.places__places-container {
+.places__place {
   margin: 92px auto 0;
   width: 77%;
   display: flex;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .places__places-container {
+  .places__place {
     margin: 88px auto 0;
     width: 94%;
     gap: 72px 0;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .places__places-container {
+  .places__place {
     margin: 62px auto 0;
     width: 100%;
     gap: 50px 0;
